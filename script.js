@@ -179,6 +179,7 @@ const AppState = {
     }
 };
 
+window.AppState = AppState;
 let charts = {};
 let activeChatStudentId = null;
 
